@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What coding language is used in making the structure of a website?",
+    "info": "Think about the 3 main coding languages",
+    "answer": "HTML"
+  },
+
+  {
+    "question": "What coding language is used in styling the website?",
+    "info": "Think about the 3 main coding languages",
+    "answer": "CSS"
+  },
+
+  {
+    "question": "What coding language is used to make buttons function in a website?",
+    "info": "Think about the 3 main coding languages",
+    "answer": "Javascript"
+  },
+
+  {
+    "question": "What are objects like text, images etc. called in HTML?",
+    "info": "Think about <h1>",
+    "answer": "Tag"
+  },
+  
+  {
+    "question": "Which word does a website use to identify CSS?",
+    "info": "Think about how you write CSS in a HTML file",
+    "answer": "style"
+  },
+  
+  {
+    "question": "Which word does a website use to identify Javascript?",
+    "info": "Think about how you write Javascript in a HTML file",
+    "answer": "script"
+  },
+  
+  {
+    "question": "What can be attached to connections?",
+    "info": "Think about changing the color of a button",
+    "answer": "Functions"
+  },
+  
+  {
+    "question": "What does CSS require in order to work?",
+    "info": "Think about where you write tags",
+    "answer": "HTML"
+  },
+
+  {
+    "question": "What are classes and id's called in CSS?",
+    "info": "Think about '.' and '#'",
+    "answer": "Selectors"
+  },
+  
+  {
+    "question": "Where can you learn more about HTML, CSS and Javascript?",
+    "info": "Think about the 'Learn more' website",
+    "answer": "W3Schools"
+  }
+  
+]

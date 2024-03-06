@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Learn - HCJ Learning</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <meta name="author" content="HCJ Learning">
+  <meta name="description" content="Helps you learn HTML, CSS and Javascript for free.">
+  <meta name='copyright' content='HCJ Learning'>
+  <meta name="keywords" content="Website making, Website Learn, W3Schools, Website Free, Make website myself, Websitedesigner, HTML CSS Javascript, Programming, Coding, HCJ Learning, Easy, Website School">
+
+  <meta name='og:title' content='HCJ Learning'>
+  <meta name='og:site_name' content='HCJ Learning'>
+  <meta name='og:description' content='Helps you learn HTML, CSS and Javascript for free.'>
+  
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+
+      <a href="index.html"><img src="/icons/HCJ Logo.svg" class="logo"></img></a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a class="nav-link" href="index.html"><img src="/icons/home.svg"></img>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="learn.html"><img src="/icons/learn.svg"></img>Learn</a></li>
+        <li class="nav-item"><a class="nav-link" href="test.html"><img src="/icons/test.svg"></img>Test</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html"><img src="/icons/about-us.svg"></img>About Us</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="contact-us.html"><img src="/icons/contact-us.svg"></img>Contact
+            Us</a></li>
+      </ul>
+
+      <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+
+    </div>
+  </nav>
+
+  <section class="learning-main">
+
+    <div class="chapter-menu">
+
+      <div class="container">
+
+        <h2 class="chapter-title">CH.</h2>
+        
+        <ul class="select-chapters">
+
+          <li class="chapter-link"><a href="#chapter-1">CH. 1</a></li> 
+          <li class="chapter-link"><a href="#chapter-2">CH. 2</a></li> 
+          <li class="chapter-link"><a href="#chapter-3">CH. 3</a></li> 
+          <li class="learn-more"><a href="https://www.w3schools.com/">Learn more?</a></li> 
+          <li class="test-yourself"><a href="/test.html">Ready to test?</a></li> 
+          
+        </ul>
+
+        <button class="hide-learn-menu">&lt;</button>
+
+      </div>
+      
+    </div>
+
+    <div class="chapter-info">
+
+      <div class="container">
+
+        <div class="chapter" id="chapter-1">
+
+          <h1>Chapter One</h1>
+          <span class="chapter-html-span">&lt;Basic HTML&gt;</span>
+          
+          <h2>What is HTML?</h2>
+          <p>HTML is used for the layout and structure of a website. It does not require a lot of skill or knowledge to use. Meaning it is easy to learn for beginners.
+          </p>
+          <h2>How to use HTML?</h2>
+          <p>Open a code editor like <a href="https://replit.com/">'Replit.com'</a> and proceed to make a new project. The first page of a website is usually called 'index.html'.
+          </p>
+
+          <img src="/images/replit.jpg" alt="">
+          
+          <h2>Tags</h2>
+          <p>
+            Every object (text, images, etc.) starts with <code>&lt;</code> followed by the tag name like <code>h1</code> and ends with <code>&gt;</code> <br></br>The final result will look like this: <code>&lt;h1&gt;</code> <br></br>It also needs to close. The closing looks the same, it just needs a '/' before the tag name. For example: <code>&lt;h1&gt;&lt;/h1&gt;</code> <br></br>In between you can put things, in this case text as it is a title tag. <br></br>
+          <code>&lt;h1&gt;This is a title&lt;/h1&gt;</code> <br></br>
+          There are many more tags with many more ussages. This is a basic tutorial so I won't get into that. You can check them out at the 'Learn more' link.
+          </p>
+
+        </div>
+
+        <div class="chapter" id="chapter-2">
+
+          <h1>Chapter Two</h1>
+          <span class="chapter-css-span">&lt;Basic CSS&gt;</span>
+          
+          <h2>What is CSS?</h2>
+          <p>CSS is used for styling the website. It is used to make the website look better and more attractive. The color of text, the background color, the font, the position of the text etc. They are all CSS properties.
+          </p>
+
+          <h2>How to use CSS?</h2>
+          <p>HTML is required for CSS to work. If there is no HTML then CSS can not be applied. It's like having butter but no bread. The butter requires the bread. But the bread alone is very bland. So you need butter to add taste. In this case CSS. <br></br>
+
+          So where do you write CSS? The easy option is to add the CSS within the same file the HTML is. It will make things messy and overwhelming, it also isn't great when having multiple pages. So you can add CSS to a separate file and link it to the HTML. <br></br> This is a more complex step that can be seen in the Learn more link. <br></br>
+          </p>
+          
+          <h2>Classes and ID's</h2>
+
+          <p>
+            In HTML you can use the <code>class</code> attribute to give a tag a class. The class can be used to identify a certain tag. You can add a class attribute with: <code>class=""</code> <br></br> Using the tag we used in learning HTML it can look like the following: <br></br> <code>&lt;h1 class=""&gt;This is a title&lt;/h1&gt;</code> <br></br> In this case, the <code>&lt;h1&gt;</code> tag is used for a title. Meaning the class should be <br></br> <code>&lt;h1 class="title"&gt;This is a title&lt;/h1&gt;</code> <br></br>
+          Why do we need classes? Without them it will be hard to style specific things. Let's say you have two titles, but one needs to be red and the other needs to be green. CSS cannot tell them apart without adding a class.
+          </p>
+
+          <p>Same for id's, it is used to specify a specific tag. ID's are written differently. There isn't much of a difference. <code>class=""</code> simply gets replaced with <code>id=""</code>.</p>
+
+          <p>In your actual styles or css file you select the classes and id's with a special character. For classes you use a '.' and for ID's you use a '#'. Below is an example of what a class and an ID can look like in your CSS.</p>
+          
+          <img src="/images/classes-and-ids.png"></img>
+          
+        </div>
+
+        <div class="chapter" id="chapter-3">
+
+          <h1>Chapter Three</h1>
+          <span class="chapter-javascript-span">&lt;Basic Javascript&gt;</span>
+
+          <h2>What is Javascript?</h2>
+          <p>Javascript brings functionality to the website. Everytime you click a button a function can be attached to it. For example: a button changes it's color when you have pressed it. This is something Javascript does. </p>
+
+          <p>To showcase it, try clicking the button below to change the background of the button.</p>
+
+          <button class="showcase-color-button">Click me to change color</button>
+
+          <h2>How to use Javascript?</h2>
+
+          <p>Javascript can be added just like CSS, for CSS you use <code>style</code> but for Javascript you use <code>script</code>. Javascript can also be added to the HTML file itself, but is easier when adding it to an extern file.</p>
+          
+          <h2>Variables</h2>
+          
+          <p>Javascript uses <i>Variables</i>, a variable is almost like a term with a meaning. In this case the meaning of the term is a <i>Value</i> and the term is the <i>Variable</i>.</p>
+
+          <p>There are many variable types, to keep it simple i'll explain two of them, you'll most likely only use these two when starting.</p>
+
+          <p>The first variable is called <code>const</code>, this is short for constant. The name says it all, it's a constant value, it cannot be changed later on.</p>
+
+          <p>The second variable is called <code>var</code>, this is short for variable, meaning you <b>can</b> change it later on.</p>
+
+          <p>Here is once again an example of how const and var are used.</p>
+
+          <p><i>Script:</i></p>
+          <code>const Constant_Name = "This is a const value";<br></br></code>
+          <code class="change-value-variable">var Variable_Name = "This is a var value";<br></br></code>
+
+          <code>console.log(Constant_Name, Variable_Name);</code>
+          
+          <p><i>Output</i></p>
+          <code>This is a const value<br></br></code>
+          <code class="change-value-output">This is a var value</code>
+
+          <p>Click the button below and watch the output change.</p>
+          <button class="change-value-button">Click me to output "Hotdogs"</button>
+          
+          <h2>Functions & Connections</h2>
+
+          <p>Functions can be attached to connections, what does that mean though? <br>Let's say you have a button that needs to be clicked, the <i>Connection</i> is clicking the button. What happens after clicking the button is the <i>Function</i>.</br></p>
+
+          <img src="/images/function-connection.png"></img>
+
+          <p>Functions can also be called without a connection. In this case you only make a function if you're going to repeatedly use that bit of code inside the function. Otherwise you have to rewrite that code everytime you want to use it. A function on it's own can also be used to clean up your code and make it more readable.</p>
+
+          <img src="/images/function-only.png"></img>
+          <p><i>The code inside this function spells a word in reverse, you would want to do this multiple times that's why it's inside of a function.</i></p>
+          
+        </div>
+
+        <div class="promotion">
+          <h1>Want to learn more?</h1>
+          <p>Check out <a href="https://www.w3schools.com/">w3schools.com</a> for more about HTML, CSS and Javascript!</p>
+        </div>
+        
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="containers">
+
+      <div class="container">
+
+        <h1>Useful links</h1>
+
+        <div class="line-container">
+          <div class="line"></div>
+        </div>
+
+        <ul>
+
+          <li data-inviewport="move-in"><a href="index.html">Home</a></li>
+          <li data-inviewport="move-in"><a href="learn.html">Learn</a></li>
+          <li data-inviewport="move-in"><a href="test.html">Test</a></li>
+          <li data-inviewport="move-in"><a href="about-us.html">About Us</a></li>
+          <li data-inviewport="move-in"><a href="contact-us.html">Contact Us</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="container">
+
+        <h1>Contact</h1>
+
+        <div class="line-container">
+          <div class="line"></div>
+        </div>
+
+        <ul>
+
+          <li data-inviewport="move-in">Address: <a href="https://maps.app.goo.gl/WfJBnwmrMnGPkxEM6">Nieuwe Duinweg 10, 2587 AC Den Haag</a></li>
+          <li data-inviewport="move-in">Mail: <a href="mailto:329096@mariscollege.nl">329096@mariscollege.nl</a></li>
+          <li data-inviewport="move-in">Phone: <a href="tel:070 322 7078">070 322 7078</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="copyright">
+
+      <p>HCJ Learning &copy;
+        <script type="text/JavaScript"> var theDate=new Date(); document.write(theDate.getFullYear()) </script>
+      </p>
+
+    </div>
+
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script type="module" src="learn-script.js"></script>
+</body>
+
+</html>
